@@ -1,27 +1,66 @@
-var slideIndex = 1;
+const imageSources = [
+  "../images/gallery-img1.png",
+  "../images/gallery-img2.png",
+  "../images/gallery-img3.png",
+  "../images/gallery-img4.png",
+  "../images/gallery-img5.png",
+  "../images/gallery-img6.png",
+];
+var currentSlideIndex = 0;
 
-function plusSlide(n) {
-  showSlides(slideIndex += n);
+function nextSlide() {
+  const isLastSlide = currentSlideIndex === imageSources.length - 1;
+  currentSlideIndex = isLastSlide ? 0 : currentSlideIndex + 1;
+
+  showSlide(currentSlideIndex);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function prevSlide() {
+  const isFirstSlide = currentSlideIndex === 0;
+  currentSlideIndex = isFirstSlide
+    ? imageSources.length - 1
+    : currentSlideIndex - 1;
+
+  showSlide(currentSlideIndex);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slide");
-  var dots = document.getElementsByClassName("demo");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace("active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += "active";
+function showSlide(i) {
+  currentSlideIndex = i;
+  const slide = document.getElementsByClassName("slide")[0];
+
+  slide.innerHTML = "";
+
+  const img = document.createElement("img");
+  img.setAttribute("src", imageSources[i]);
+  slide.append(img);
+
+  showImages();
 }
 
-// showSlides(slideIndex);
+function showImages() {
+  const galleryImagesEl = document.getElementsByClassName("gallery-images")[0];
+
+  galleryImagesEl.innerHTML = "";
+
+  const galleryImagesElements = imageSources.map((imageSrc, index) => {
+    const galleryImageEl = document.createElement("div");
+    galleryImageEl.setAttribute("class", "gallery-image");
+
+    if (currentSlideIndex === index) {
+      galleryImageEl.style.display = "none";
+    }
+
+    const img = document.createElement("img");
+    img.setAttribute("src", imageSrc);
+    img.setAttribute("class", "demo cursor");
+    img.addEventListener("click", () => showSlide(index));
+
+    galleryImageEl.append(img);
+
+    return galleryImageEl;
+  });
+
+  galleryImagesElements.forEach((el) => {
+    galleryImagesEl.append(el);
+  });
+}
