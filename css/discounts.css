@@ -1,0 +1,84 @@
+.head-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--light-blue-color);
+}
+
+.head-banner-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head-banner-column h2 {
+    margin: 0 0 30px 64px;
+}
+
+.banner-image {
+    background: linear-gradient(to left, #00578A, #F0F6F9);
+}
+
+.discounts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px 64px 120px;
+}
+
+.discount-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 14px;
+    background-color: var(--light-blue-color);
+}
+
+.discount-item img {
+    border-radius: 14px;
+    margin: 12px 0 12px 12px;
+}
+
+.discount-info {
+    width: 723px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 30px 30px 0;
+}
+
+.discount-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discount-buttons-row {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.discount-button {
+    width: 209px;
+    height: 54px;
+    color: #FFFFFF;
+    background-color: var(--green-color);
+    border: 0;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #00E1DA;
+    }
+
+    &.-more {
+        width: 208px;
+        border: 1px solid var(--blue-color);
+        color: var(--blue-color);
+        background-color: var(--light-blue-color);
+
+        &:hover {
+            background-color: #D5E9F3;
+        }
+    }
+}

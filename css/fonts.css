@@ -1,0 +1,91 @@
+:root {
+    --bold32-font: 700 32px/40px Nunito;
+    --semi32-font: 600 32px/40px Nunito;
+    --semi28-font: 600 28px/38px Nunito;
+    --bold22-font: 700 22px/22px Nunito;
+    --semi20-font: 600 20px/28px Nunito;
+    --reg20-font: 400 20px/30px Nunito;
+    --bold18-font: 700 18px/28px Nunito;
+    --semi18-font: 600 18px/28px Nunito;
+    --reg18-font: 400 18px/28px Nunito;
+    --bold16-font: 700 16px/22px Nunito;
+    --reg16-font: 400 16px/22px Nunito;
+    --bold14-font: 700 14px/18px Nunito;
+    --reg14-font: 400 14px/18px Nunito;
+    --reg14-lato-font: 400 14px/24px Lato;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito;
+}
+
+p {
+    margin: 0;
+}
+
+.bold32-font {
+    font: 700 32px/40px Nunito;
+}
+
+.semi32-font {
+    font: 600 32px/40px Nunito;
+}
+
+.semi28-font {
+    font: 600 28px/38px Nunito;
+}
+
+.bold22-font {
+    font: 700 22px/22px Nunito;
+}
+
+.semi20-font {
+    font: 600 20px/28px Nunito;
+}
+
+.reg20-font {
+    font: 400 20px/30px Nunito;
+}
+
+.bold18-font {
+    font: 700 18px/28px Nunito;
+}
+
+.semi18-font {
+    font: 600 18px/28px Nunito;
+}
+
+.reg18-font {
+    font: 400 18px/28px Nunito;
+}
+
+.bold16-font {
+    font: 700 16px/22px Nunito;
+}
+
+.reg16-font {
+    font: 400 16px/22px Nunito;
+}
+
+.bold14-font {
+    font: 700 14px/18px Nunito;
+}
+
+.reg14-font {
+    font: 400 14px/18px Nunito;
+}

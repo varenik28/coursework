@@ -1,0 +1,73 @@
+.doctors-speciality {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px 64px 0;
+}
+
+.doctors-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.buttons-column button {
+    width: 417px;
+    border: 0;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #F5F9FB;
+    text-align: left;
+    padding: 21px 0 21px 20px;
+
+    &:hover {
+        color: var(--dark-blue-color);
+    }
+}
+
+.doctors {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 64px 120px;
+}
+
+.doctors-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.doctor-item img {
+    height: 350px;
+    border-radius: 5px;
+}
+
+.doctor-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.doctor-item button {
+    width: 306px;
+    height: 54px;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: var(--dark-blue-color);
+
+    &:hover {
+        background-color: #0070B1;
+    }
+}

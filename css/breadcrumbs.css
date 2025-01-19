@@ -1,0 +1,15 @@
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin: 25px 64px 0;
+}
+
+.breadcrumbs a {
+    color: #353535;
+}
+
+#selected-page {
+    color: #353535;
+    opacity: 0.6;
+}

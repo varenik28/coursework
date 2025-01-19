@@ -1,0 +1,78 @@
+form {
+    height: 425px;
+    background: linear-gradient(to left, #0074B8, #00BAC6);
+    border-radius: 14px;
+    margin: 40px 64px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-description {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 96px 60px;
+}
+
+.form-description p {
+    width: 360px;
+    height: 60px;
+    position: relative;
+    bottom: -5px;
+}
+
+.form-body {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 96px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-column select {
+    width: 360px;
+    height: 70px;
+    border: 0;
+    border-radius: 5px;
+    padding: 24px 30px;
+    color: var(--black-color);
+    background-color: #FFFFFF;
+}
+
+.form-column input {
+    width: 360px;
+    height: 70px;
+    border: 0;
+    border-radius: 5px;
+    padding: 24px 30px;
+    color: var(--black-color);
+    background-color: #FFFFFF;
+}
+
+.form-column input::placeholder {
+    color: var(--black-color);
+}
+
+.form-button {
+    width: 360px;
+    height: 70px;
+    color: #FFFFFF;
+    background-color: var(--green-color);
+    border: 0;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #00E1DA;
+    }
+}
+
+.form-politics {
+    width: 360px;
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}

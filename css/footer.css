@@ -1,0 +1,118 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 0 20px;
+}
+
+.footer-content {
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--light-blue-color);
+    padding: 0 64px;
+}
+
+.footer-logo-politics {
+    width: 305px;
+    height: 246px;
+    margin-top: 23px;
+}
+
+.footer-logo-politics p {
+    color: var(--grey-color);
+    margin: 29px 0 80px;
+}
+
+.footer-logo-politics a {
+    color: var(--light-grey-color);
+}
+
+.footer-nav-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.footer-nav-info nav {
+    width: 965px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-nav-info nav a {
+    text-decoration: none;
+    color: var(--grey-color);
+}
+
+.contact-info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.phone-number-info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.address-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-social-network {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-top: 39px;
+
+    &.-vk {
+        margin-top: 49px;
+    }
+}
+
+.footer-social-network img {
+    width: 26px;
+    height: 26px;
+}
+
+.contact-info button {
+    width: 272px;
+    height: 54px;
+    color: var(--grey-color);
+    background-color: var(--gray-blue-color);
+    border: 0;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #D5E9F3;
+    }
+}
+
+.email-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: end;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 64px;
+}

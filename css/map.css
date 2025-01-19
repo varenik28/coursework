@@ -1,0 +1,10 @@
+.map-block {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 120px 64px 0;
+}
+
+.map {
+    border-radius: 14px;
+}
