@@ -4,6 +4,7 @@
     --semi28-font: 600 28px/38px Nunito;
     --bold22-font: 700 22px/22px Nunito;
     --semi20-font: 600 20px/28px Nunito;
+    --bold20-font: 700 20px/30px Nunito;
     --reg20-font: 400 20px/30px Nunito;
     --bold18-font: 700 18px/28px Nunito;
     --semi18-font: 600 18px/28px Nunito;
@@ -52,6 +53,10 @@ p {
 
 .bold22-font {
     font: 700 22px/22px Nunito;
+}
+
+.bold20-font {
+    font: 700 20px/30px Nunito;
 }
 
 .semi20-font {

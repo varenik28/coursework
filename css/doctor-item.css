@@ -1,0 +1,201 @@
+.about-doctor-head {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--light-blue-color);
+}
+
+.doctor-card {
+    display: flex;
+    gap: 30px;
+    margin: 0 176px 40px 64px;
+}
+
+.doctor-card img {
+    width: 417px;
+    height: 478px;
+}
+
+.doctor-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+}
+
+.doctor-card-main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.doctor-card-main-text h2 {
+    width: 639px;
+}
+
+.details-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.date-buttons-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.date-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: 18px;
+    padding-left: 11px;
+    border-left: 1px solid var(--black-color);
+}
+
+.doctor-card-buttons-row {
+    display: flex;
+    gap: 20px;
+}
+
+.doctor-card-button {
+    width: 272px;
+    height: 54px;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: var(--green-color);
+
+    &:hover {
+        background-color: #00E1DA;
+    }
+
+    &.-feedback {
+        width: 244px;
+        color: var(--blue-color);
+        background-color: var(--gray-blue-color);
+
+        &:hover {
+            background-color: #D5E9F3;
+        }
+    }
+}
+
+.doctor-skill {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 70px 64px 0;
+}
+
+.doctor-skill-buttons {
+    display: flex;
+    gap: 80px;
+    height: 42px;
+    width: fit-content;
+    border-bottom: 2px solid var(--gray-blue-color);
+}
+
+.doctor-skill-item {
+    display: flex;
+    align-items: flex-start;
+    height: 44px;
+    color: var(--light-grey-color);
+
+    &:hover {
+        height: 42px;
+        color: var(--black-color);
+        border-bottom: 2px solid var(--blue-color);
+    }
+}
+
+.doctor-skill-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.doctors-prices {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px 64px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 25px 0;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+td:nth-child(1) {
+    padding-right: 50px;
+}
+
+td:nth-child(3) {
+    text-align: right;
+}
+
+.licenses {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin: 120px 64px 0;
+}
+
+.licenses-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-buttons-row {
+    display: flex;
+    gap: 10px;
+}
+
+.slider-button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #EAF6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.licenses-card-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.licenses-item {
+    width: 305px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.licenses-img-block {
+    padding: 20px;
+    border: 1px solid #BEE1F6;
+    border-radius: 5px;
+}
+
+.licenses-img-block img {
+    width: 100%;
+    height: auto;
+}
+
+.licenses-item a {
+    text-decoration: none;
+
+    &:hover {
+        color: var(--blue-color);
+    }
+}
