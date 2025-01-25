@@ -2,7 +2,9 @@
     --bold32-font: 700 32px/40px Nunito;
     --semi32-font: 600 32px/40px Nunito;
     --semi28-font: 600 28px/38px Nunito;
+    --bold24-font: 700 24px/34px Nunito;
     --bold22-font: 700 22px/22px Nunito;
+    --bold2028-font: 700 20px/28px Nunito;
     --semi20-font: 600 20px/28px Nunito;
     --bold20-font: 700 20px/30px Nunito;
     --reg20-font: 400 20px/30px Nunito;
@@ -14,6 +16,13 @@
     --bold14-font: 700 14px/18px Nunito;
     --reg14-font: 400 14px/18px Nunito;
     --reg14-lato-font: 400 14px/24px Lato;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0;
 }
 
 h2 {
@@ -51,12 +60,20 @@ p {
     font: 600 28px/38px Nunito;
 }
 
+.bold24-font {
+    font: 700 24px/34px Nunito;
+}
+
 .bold22-font {
     font: 700 22px/22px Nunito;
 }
 
 .bold20-font {
     font: 700 20px/30px Nunito;
+}
+
+.bold2028-font {
+    font: 700 20px/28px Nunito;
 }
 
 .semi20-font {
@@ -93,4 +110,8 @@ p {
 
 .reg14-font {
     font: 400 14px/18px Nunito;
+}
+
+.reg14-form-font {
+    font: 400 14px/24px Nunito;
 }

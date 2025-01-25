@@ -70,9 +70,58 @@ form {
     }
 }
 
-.form-politics {
+.button-politics {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-politics-checkbox {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    /* align-items: center; */
+    user-select: none;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid var(--dark-blue-color);
+    border-radius: 2px;
+    margin-right: 15px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: var(--dark-blue-color);
+    background-color: #FFFFFF;
+    background-image: url("../images/form-rectangle.svg");
+}
+
+.form-politics-checkbox a {
+    color: #FFFFFF;
+}
+
+/* .form-politics {
     width: 360px;
     display: flex;
     gap: 15px;
     margin-top: 28px;
-}
+} */

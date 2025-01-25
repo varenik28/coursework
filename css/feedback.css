@@ -37,6 +37,7 @@
 .head-buttons select {
     width: 306px;
     height: 55px;
+    padding: 16px 20px;
     border: 0;
     border-radius: 5px;
     background-color: var(--gray-blue-color);
@@ -44,4 +45,47 @@
 
 .banner-image {
     background: linear-gradient(to left, #00578A, #F0F6F9);
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 64px 0;
+}
+
+.feedback-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.author-info {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.author-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stars-row {
+    display: flex;
+    gap: 4px;
+}
+
+.feedback-item>p {
+    width: 977px;
+    padding-bottom: 40px;
 }

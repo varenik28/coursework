@@ -71,7 +71,7 @@
   object-fit: cover;
 }
 
-.slide {
+.gallery-slide {
   height: 576px;
   width: 100%;
   display: flex;
@@ -82,7 +82,7 @@
   border-radius: 8px;
 }
 
-.slide img {
+.gallery-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -230,11 +230,9 @@
 }
 
 .info-item-img {
-  background: linear-gradient(
-    to left,
-    rgba(153, 188, 209, 1),
-    rgba(153, 188, 209, 0)
-  );
+  background: linear-gradient(to left,
+      rgba(153, 188, 209, 1),
+      rgba(153, 188, 209, 0));
   border-radius: 14px;
   position: absolute;
   left: 277px;

@@ -26,7 +26,7 @@ function prevSlide() {
 
 function showSlide(i) {
   currentSlideIndex = i;
-  const slide = document.getElementsByClassName("slide")[0];
+  const slide = document.getElementsByClassName("gallery-slide")[0];
 
   slide.innerHTML = "";
 
@@ -64,3 +64,5 @@ function showImages() {
     galleryImagesEl.append(el);
   });
 }
+
+showSlide(0);

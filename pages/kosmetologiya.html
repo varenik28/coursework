@@ -1,30 +1,27 @@
-<html lang="ru">
+<html>
 
 <head>
-    <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-    <title>Городской Медицинский Центр</title>
-    <meta name="description"
-        content="Добро пожаловать в Городской медицинский центр в Мытищах! Мы предлагаем высококачественные медицинские услуги для всей семьи. Запись на прием онлайн, профессиональные врачи и современное оборудование. Ваше здоровье – наша главная забота!">
-    <meta name="keywords"
-        content="медицинский центр Мытищи, здоровье, врачи, медицинские услуги, онлайн запись, медицинская помощь, клиника, диагностика, лечение, профилактика, семейная медицина, медицинский центр, медицинские консультации, здоровье семьи, медицинские специалисты, современное оборудование, медицинский центр в Мытищах">
+    <title>Косметология - Городской Медицинский Центр</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/activity-item.css">
 
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
 
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/colors.css">
 
-    <link rel="stylesheet" href="css/licenses-block.css">
-    <link rel="stylesheet" href="css/feedback-block.css">
-    <link rel="stylesheet" href="css/doctors-block.css">
-    <link rel="stylesheet" href="css/services-block.css">
+    <link rel="stylesheet" href="../css/licenses-block.css">
+    <link rel="stylesheet" href="../css/feedback-block.css">
+    <link rel="stylesheet" href="../css/doctors-block.css">
+    <link rel="stylesheet" href="../css/services-block.css">
 
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/map.css">
 
-    <link rel="shortcut icon" href="images/heart.svg" />
+    <link rel="stylesheet" href="../css/breadcrumbs.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/map.css">
+
+    <link rel="shortcut icon" href="../images/heart.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,20 +33,19 @@
 <body>
     <header>
         <div class="logo-contacts">
-            <a href="index.html">
-                <img src="images/header-logo.svg">
+            <a href="../index.html">
+                <img src="../images/header-logo.svg">
             </a>
             <div class="phone-number">
                 <p class="semi18-font dark-blue-color">8 (495) 926-06-03</p>
                 <div class="social-network">
-                    <img src="images/whatsapp.svg">
+                    <img src="../images/whatsapp.svg">
                     <p class="reg14-font grey-color">Whatsapp</p>
                 </div>
             </div>
             <div class="email-call reg14-font">
                 <p class="grey-color">info@gormedcentre.ru</p>
-                <p class="grey-color" id="openModal">Заказать звонок</p>
-                <script src="js/modal.js"></script>
+                <a class="grey-color" href="#">Заказать звонок</a>
             </div>
             <div class="reg14-font grey-color">
                 <p>г. Мытищи,</p>
@@ -61,107 +57,155 @@
             </div>
             <div class="search-button">
                 <div class="search">
-                    <img src="images/search.svg">
+                    <img src="../images/search.svg">
                 </div>
                 <button class="bold16-font">Личный кабинет</button>
             </div>
         </div>
         <div class="menu-and-button">
             <nav class="bold16-font">
-                <a href="pages/activities.html">Направления</a>
+                <a href="activities.html">Направления</a>
                 <a href="#">Услуги</a>
-                <a href="pages/doctors.html">Врачи</a>
-                <a href="pages/feedback.html">Отзывы</a>
-                <a href="pages/discounts.html">Акции</a>
+                <a href="doctors.html">Врачи</a>
+                <a href="feedback.html">Отзывы</a>
+                <a href="discounts.html">Акции</a>
                 <div class="dropdown-menu">
-                    <a href="pages/aboutcenter.html">О центре</a>
+                    <a href="aboutcenter.html">О центре</a>
                     <div class="dropdown-content">
-                        <a class="reg16-font" href="pages/licenses-certificates.html">Лицензии и сертификаты</a>
-                        <a class="reg16-font" href="pages/vacancies.html">Вакансии</a>
+                        <a class="reg16-font" href="licenses-certificates.html">Лицензии и сертификаты</a>
+                        <a class="reg16-font" href="vacancies.html">Вакансии</a>
                     </div>
                 </div>
                 <a href="#">Детство</a>
-                <a href="pages/contacts.html">Контакты</a>
+                <a href="contacts.html">Контакты</a>
             </nav>
             <div class="version-button">
                 <div class="another-version">
-                    <img src="images/version.svg">
+                    <img src="../images/version.svg">
                     <p class="reg14-font">Версия для слабовидящих</p>
                 </div>
-                <button class="bold16-font" id="openModal">Запись на приём</button>
-                <script src="js/modal.js"></script>
+                <button class="bold16-font">Запись на приём</button>
             </div>
         </div>
     </header>
 
 
-    <div class="banner">
-        <div class="banner-content">
-            <div class="banner-text">
-                <h1>Позаботьтесь о своём здоровье</h1>
-                <p class="reg20-font">Осуществляем комплексное медицинское обслуживание населения: консультации и
-                    амбулаторное лечение у
-                    специалистов всех направлений, медицинские обследования и диагностические процедуры.</p>
+    <div class="head-banner">
+        <div class="head-banner-column">
+            <div class="breadcrumbs reg16-font">
+                <a href="../index.html">Главная</a>
+                <p>/</p>
+                <a href="activities.html">Направления</a>
+                <p>/</p>
+                <p id="selected-page">Косметология</p>
             </div>
-            <button class="semi20-font">Записаться</button>
+            <div class="head-banner-text-button">
+                <div class="head-banner-text">
+                    <p class="bold22-font dark-blue-color">Косметология</p>
+                    <div class="head-banner-heading-text">
+                        <h2>Первичный приём врача-косметолога</h2>
+                        <h1>2 500 ₽</h1>
+                    </div>
+                </div>
+                <button class="semi20-font">Записаться</button>
+            </div>
         </div>
-        <img class="banner-arrow-img" src="images/banner-arrow.svg">
-        <img class="banner-doctor-img" src="images/banner-doctor.png">
+        <img src="../images/activity-head-img.png">
     </div>
 
 
-    <div class="row">
-        <div class="row-card">
-            <div class="row-card-line">
-                <p class="bold22-font">Направления</p>
+    <div class="advantages">
+        <div class="advantage-item">
+            <img class="advantage-img" src="../images/advantage-plus.svg">
+            <div class="advantage-item-text">
+                <p class="bold24-font blue-color">>10</p>
+                <p class="reg16-font">лет заботы о вашем здоровье</p>
             </div>
-            <div class="row-card-items reg18-font">
-                <a href="#">Акушерство</a>
-                <a href="#">Косметология</a>
-                <a href="#">Хирургия</a>
-                <a href="#">Мануальная терапия</a>
-                <a href="#">Психотерапия</a>
-            </div>
-            <button class="bold16-font">Все услуги</button>
         </div>
-        <div class="row-card">
-            <div class="row-card-line">
-                <p class="bold22-font">Диагностика</p>
+        <div class="advantage-item">
+            <img class="advantage-img" src="../images/advantage-plus.svg">
+            <div class="advantage-item-text">
+                <p class="bold24-font blue-color">150</p>
+                <p class="reg16-font">квалифицированных специалистов</p>
             </div>
-            <div class="row-card-items reg18-font">
-                <a href="#">МРТ</a>
-                <a href="#">КТ</a>
-                <a href="#">УЗИ</a>
-                <a href="#">Рентген</a>
-                <a href="#">Гастроскопия</a>
-            </div>
-            <button class="bold16-font">Вся диагностика</button>
         </div>
-        <div class="row-card">
-            <div class="row-card-line">
-                <p class="bold22-font">Врачи</p>
+        <div class="advantage-item">
+            <img class="advantage-img" src="../images/advantage-plus.svg">
+            <div class="advantage-item-text">
+                <p class="bold24-font blue-color">3000</p>
+                <p class="reg16-font">медицинских услуг по всем направлениям</p>
             </div>
-            <div class="row-card-items reg18-font">
-                <a href="#">Стоматолог</a>
-                <a href="#">Эндокринолог</a>
-                <a href="#">Хирург</a>
-                <a href="pages/terapevt.html">Терапевт</a>
-                <a href="pages/nevrolog.html">Невролог</a>
-            </div>
-            <button class="bold16-font" onclick="document.location='pages/doctors.html'">Все врачи</button>
         </div>
-        <div class="row-card">
-            <div class="row-card-line">
-                <p class="bold22-font">Детство</p>
+        <div class="advantage-item">
+            <img class="advantage-img" src="../images/advantage-plus.svg">
+            <div class="advantage-item-text">
+                <p class="bold24-font blue-color">День в день</p>
+                <p class="reg16-font">прием врача любой специальности в день обращения</p>
             </div>
-            <div class="row-card-items reg18-font">
-                <a href="#">Педиатр</a>
-                <a href="#">Стоматолог</a>
-                <a href="#">Дерматолог</a>
-                <a href="#">Офтальмолог</a>
-                <a href="#">Логопед</a>
-            </div>
-            <button class="bold16-font">Все врачи</button>
+        </div>
+    </div>
+
+
+    <div class="activity-prices">
+        <h2>Стоимость услуг</h2>
+        <div class="prices">
+            <details>
+                <summary class="semi28-font">
+                    <p>Контурная пластика</p>
+                    <div class="plus-minus-button"></div>
+                </summary>
+                <a class="semi20-font blue-color" href="konturnaya-plastika.html">Контурная пластика</a>
+                <table>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.009.001</td>
+                        <td class="reg18-font">Контурная пластика Belotero lips contour 0,6 ml</td>
+                        <td class="semi20-font dark-blue-color">15700 ₽</td>
+                    </tr>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.009.002</td>
+                        <td class="reg18-font">Контурная пластика Radiesse (Радиесс) 3,0 мл</td>
+                        <td class="semi20-font dark-blue-color">42000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.009.003</td>
+                        <td class="reg18-font">Контурная пластика Belotero Balance 1ml</td>
+                        <td class="semi20-font dark-blue-color">17000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.009.004</td>
+                        <td class="reg18-font">Контурная пластика Belotero Intense 1ml</td>
+                        <td class="semi20-font dark-blue-color">18000 ₽</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary class="semi28-font">
+                    <p>Биоревитализация</p>
+                    <div class="plus-minus-button"></div>
+                </summary>
+                <table>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.010.001</td>
+                        <td class="reg18-font">Биоревитализация Meso-wharton P 199 1,5 ml</td>
+                        <td class="semi20-font dark-blue-color">24000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.010.002</td>
+                        <td class="reg18-font">Биоревитализация Teosyal Redensity I 1 ml</td>
+                        <td class="semi20-font dark-blue-color">15000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.010.003</td>
+                        <td class="reg18-font">Биоревитализация MESOEYE C71 1 ml</td>
+                        <td class="semi20-font dark-blue-color">24000 ₽</td>
+                    </tr>
+                    <tr>
+                        <td class="reg18-font light-grey-color">18.010.004</td>
+                        <td class="reg18-font">Биоревитализация MESO Sculpt C71 1 ml</td>
+                        <td class="semi20-font dark-blue-color">24000 ₽</td>
+                    </tr>
+                </table>
+            </details>
         </div>
     </div>
 
@@ -207,44 +251,9 @@
     </form>
 
 
-    <div class="about-us">
-        <div class="about-us-content">
-            <div class="about-us-text">
-                <h2>Немного о нашем медицинском центре</h2>
-                <p>Многопрофильное амбулаторно-поликлиническое учреждение для детей и взрослых в городе Мытищи.
-                    Мы предоставляем платные медицинские услуги и занимаем лидирующие позиции среди медицинских
-                    учреждений города Мытищи. У нас ежегодно обслуживаются более 150000 пациентов.</p>
-            </div>
-            <img class="about-us-img" src="images/about-us-doctor.png">
-        </div>
-        <div class="advantages">
-            <div class="advantage-item">
-                <img src="images/advantage-plus.svg">
-                <p class="bold24-font blue-color">>10</p>
-                <p class="reg16-font">лет заботы о вашем здоровье</p>
-            </div>
-            <div class="advantage-item">
-                <img src="images/advantage-plus.svg">
-                <p class="bold24-font blue-color">150</p>
-                <p class="reg16-font">квалифицированных специалистов</p>
-            </div>
-            <div class="advantage-item">
-                <img src="images/advantage-plus.svg">
-                <p class="bold24-font blue-color">3000</p>
-                <p class="reg16-font">медицинских услуг по всем направлениям</p>
-            </div>
-            <div class="advantage-item">
-                <img src="images/advantage-plus.svg">
-                <p class="bold24-font blue-color">День в день</p>
-                <p class="reg16-font">прием врача любой специальности в день обращения</p>
-            </div>
-        </div>
-    </div>
-
-
     <div class="slider-block">
         <div class="slider-heading">
-            <h2>Популярные услуги</h2>
+            <h2>Популярные услуги в косметологии</h2>
             <div class="slider-buttons-row">
                 <div class="slider-button" id="prevBtnService">
                     <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -262,28 +271,28 @@
             <div class="slidesService">
                 <div class="slideService">
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img1.png">
+                        <img class="service-img" src="../images/service-img1.png">
                         <div class="service-text">
                             <p class="semi20-font">Магнитно-резонансная томография (МРТ)</p>
                             <button class="bold16-font">Записаться</button>
                         </div>
                     </div>
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img2.png">
+                        <img class="service-img" src="../images/service-img2.png">
                         <div class="service-text">
                             <p class="semi20-font">Гастроскопия</p>
                             <button class="bold16-font">Записаться</button>
                         </div>
                     </div>
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img3.png">
+                        <img class="service-img" src="../images/service-img3.png">
                         <div class="service-text">
                             <p class="semi20-font">Прием гинеколога</p>
                             <button class="bold16-font">Записаться</button>
                         </div>
                     </div>
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img4.png">
+                        <img class="service-img" src="../images/service-img4.png">
                         <div class="service-text">
                             <p class="semi20-font">Лабораторная диагностика</p>
                             <button class="bold16-font">Записаться</button>
@@ -292,28 +301,28 @@
                 </div>
                 <div class="slideService">
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img1.png">
+                        <img class="service-img" src="../images/service-img1.png">
                         <div class="service-text">
                             <p class="semi20-font">Магнитно-резонансная томография (МРТ)</p>
                             <button class="bold16-font">Записаться</button>
                         </div>
                     </div>
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img2.png">
+                        <img class="service-img" src="../images/service-img2.png">
                         <div class="service-text">
                             <p class="semi20-font">Гастроскопия</p>
                             <button class="bold16-font">Записаться</button>
                         </div>
                     </div>
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img3.png">
+                        <img class="service-img" src="../images/service-img3.png">
                         <div class="service-text">
                             <p class="semi20-font">Прием гинеколога</p>
                             <button class="bold16-font">Записаться</button>
                         </div>
                     </div>
                     <div class="services-item">
-                        <img class="service-img" src="images/service-img4.png">
+                        <img class="service-img" src="../images/service-img4.png">
                         <div class="service-text">
                             <p class="semi20-font">Лабораторная диагностика</p>
                             <button class="bold16-font">Записаться</button>
@@ -323,13 +332,70 @@
             </div>
         </div>
 
-        <script src="js/sliderService.js"></script>
+        <script src="../js/sliderService.js"></script>
+    </div>
+
+
+    <div class="about-activity-text">
+        <div class="about-activity-item">
+            <p class="bold32-font">Все, что вы должны знать о косметологии: секреты красоты и здоровья</p>
+            <p class="reg18-font">Косметология – это наука и искусство, которое изучает и улучшает красоту и здоровье
+                кожи, волос и ногтей.
+                Современная косметология предлагает широкий спектр процедур и продуктов, которые помогают нам выглядеть
+                и
+                чувствовать себя лучше. В этой статье мы погрузимся в мир косметологии и рассмотрим основные аспекты
+                этой
+                науки.</p>
+        </div>
+
+        <ol>
+            <li class="bold2028-font dark-blue-color">Роль косметолога в поддержании красоты и здоровья</li>
+            <p class="reg18-font">Косметолог – это специалист, который помогает нам достичь желаемого внешнего вида и
+                поддерживать здоровье
+                нашей кожи и волос. Он или она проводит диагностику, консультирует по уходу за кожей и рекомендует
+                процедуры и продукты, которые помогут решить определенные проблемы.</p>
+            <li class="bold2028-font dark-blue-color">Основные процедуры и техники косметологии</li>
+            <p class="reg18-font">В мире косметологии существует множество процедур и техник, которые помогают улучшить
+                состояние кожи,
+                волос и ногтей. Некоторые из них включают в себя:</p>
+            <ul class="reg18-font">
+                <li>Чистка кожи: процедура, при которой косметолог осуществляет механическую или химическую очистку кожи
+                    от омертвевших клеток, масла, загрязнений и комедонов.</li>
+                <li>Пилинг: метод, который помогает удалить верхний слой кожи, стимулируя процесс обновления клеток. Это
+                    помогает улучшить текстуру кожи и избавиться от пигментации и морщин.</li>
+                <li>Инъекции: косметолог может проводить инъекции с препаратами, содержащими гиалуроновую кислоту или
+                    ботулинотоксин, для устранения морщин и увеличения объема губ или щек.</li>
+                <li>Лазерные процедуры: лазерное облучение используется для удаления пигментных пятен, рубцов, растяжек
+                    и васкулярных изменений на коже.</li>
+                <li>Пластическая хирургия: косметолог может также предлагать пластическую хирургию для изменения формы
+                    или размера носа, груди или других частей тела.</li>
+            </ul>
+            <li class="bold2028-font dark-blue-color">Важность правильного ухода за кожей</li>
+            <p class="reg18-font">Косметология не ограничивается только процедурами, проводимыми у специалиста.
+                Правильный уход за кожей в
+                домашних условиях является неотъемлемой частью косметологии. Это включает регулярное очищение,
+                увлажнение и защиту кожи от вредных воздействий окружающей среды.</p>
+            <li class="bold2028-font dark-blue-color">Рекомендации по выбору косметических продуктов</li>
+            <p class="reg18-font">Выбор правильных косметических продуктов является ключевым аспектом косметологии.
+                Необходимо учитывать тип кожи, его особенности и проблемы, которые требуют решения. Косметолог может
+                помочь вам определиться с выбором наиболее подходящих продуктов, которые удовлетворят вашим
+                потребностям.</p>
+        </ol>
+
+        <div class="about-activity-item">
+            <p class="bold22-font">Заключение:</p>
+            <p class="reg18-font">Косметология – это широкая и захватывающая область науки и искусства, которая помогает
+                нам выглядеть и чувствовать себя лучше. От регулярного ухода за кожей до процедур, проводимых
+                специалистом, косметология включает в себя различные методы и техники, которые помогут улучшить нашу
+                внешность и поддержать здоровье. Не забывайте обращаться к профессионалу для получения наилучших
+                результатов и сохранения красоты на долгое время.</p>
+        </div>
     </div>
 
 
     <div class="slider-block">
         <div class="slider-heading">
-            <h2>Врачи медицинского центра</h2>
+            <h2>Врачи</h2>
             <div class="slider-buttons-row">
                 <div class="slider-button" id="prevBtnDoctor">
                     <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -347,7 +413,7 @@
             <div class="slidesDoctor">
                 <div class="slideDoctor">
                     <div class="doctor-item">
-                        <img src="images/kryatov-a.png">
+                        <img src="../images/kryatov-a.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Крятов Андрей</p>
                             <p class="reg18-font">Главный врач, уролог, андролог</p>
@@ -355,23 +421,23 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <a href="pages/savina-n.html"><img src="images/savina-n.png"></a>
+                        <a href="savina-n.html"><img src="../images/savina-n.png"></a>
                         <div class="doctor-item-text">
-                            <a class="bold22-font blue-color" href="pages/savina-n.html">Савина Наталья</a>
+                            <a class="bold22-font blue-color" href="savina-n.html">Савина Наталья</a>
                             <p class="reg18-font">Врач-невролог</p>
                         </div>
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <a href="pages/zotova-g.html"><img src="images/zotova-g.png"></a>
+                        <img src="../images/zotova-g.png">
                         <div class="doctor-item-text">
-                            <a class="bold22-font blue-color" href="pages/zotova-g.html">Зотова Гюзяль</a>
+                            <p class="bold22-font blue-color">Зотова Гюзяль</p>
                             <p class="reg18-font">Врач-терапевт</p>
                         </div>
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/nikolaeva-o.png">
+                        <img src="../images/nikolaeva-o.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Николаeва Оксана</p>
                             <p class="reg18-font">Врач-терапевт</p>
@@ -381,7 +447,7 @@
                 </div>
                 <div class="slideDoctor">
                     <div class="doctor-item">
-                        <img src="images/vargataya-v.png">
+                        <img src="../images/vargataya-v.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Варгатая Виктория</p>
                             <p class="reg18-font">Врач-пульмонолог, терапевт</p>
@@ -389,7 +455,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/tsvetkova-o.png">
+                        <img src="../images/tsvetkova-o.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Цветкова Ольга</p>
                             <p class="reg18-font">Врач-офтальмолог</p>
@@ -397,7 +463,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/kyznetsova-a.png">
+                        <img src="../images/kyznetsova-a.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Кузнецова Анна</p>
                             <p class="reg18-font">Врач-оториноларинголог</p>
@@ -405,7 +471,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/fedorenko-a.png">
+                        <img src="../images/fedorenko-a.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Федоренко Андрей</p>
                             <p class="reg18-font">Врач-оториноларинголог</p>
@@ -415,7 +481,7 @@
                 </div>
                 <div class="slideDoctor">
                     <div class="doctor-item">
-                        <img src="images/scherbak-e.png">
+                        <img src="../images/scherbak-e.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Щербак Евгения</p>
                             <p class="reg18-font">Врач-оториноларинголог</p>
@@ -423,7 +489,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/karpetyan-m.png">
+                        <img src="../images/karpetyan-m.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Карапетян Михаил</p>
                             <p class="reg18-font">Врач-эндоскопист</p>
@@ -431,7 +497,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/medvedeva-e.png">
+                        <img src="../images/medvedeva-e.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Медведева Елена</p>
                             <p class="reg18-font">Врач УЗ-диагностики</p>
@@ -439,7 +505,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/bobin-e.png">
+                        <img src="../images/bobin-e.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Бобин Евгений</p>
                             <p class="reg18-font">Врач УЗ-диагностики</p>
@@ -449,7 +515,7 @@
                 </div>
                 <div class="slideDoctor">
                     <div class="doctor-item">
-                        <img src="images/krylova-a.png">
+                        <img src="../images/krylova-a.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Крылова Анастасия</p>
                             <p class="reg18-font">Врач УЗ-диагностики</p>
@@ -457,7 +523,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/popova-e.png">
+                        <img src="../images/popova-e.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Попова Елена</p>
                             <p class="reg18-font">Врач УЗ-диагностики</p>
@@ -465,7 +531,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/semenov-d.png">
+                        <img src="../images/semenov-d.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Семенов Дмитрий</p>
                             <p class="reg18-font">Врач-хирург</p>
@@ -473,7 +539,7 @@
                         <button class="bold16-font">Записаться</button>
                     </div>
                     <div class="doctor-item">
-                        <img src="images/shevchyk-a.png">
+                        <img src="../images/shevchyk-a.png">
                         <div class="doctor-item-text">
                             <p class="bold22-font blue-color">Шевчук Александр</p>
                             <p class="reg18-font">Врач-хирург</p>
@@ -484,7 +550,7 @@
             </div>
         </div>
 
-        <script src="js/sliderDoctor.js"></script>
+        <script src="../js/sliderDoctor.js"></script>
     </div>
 
 
@@ -513,11 +579,11 @@
                             <p class="reg16-font">27 декабря 2024</p>
                         </div>
                         <div class="stars-row">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
                         </div>
                         <p class="semi20-font">Дорогой и любимый ГорМедЦентр! Спасибо вам за прекрасное обслуживание, за
                             трепетное
@@ -525,7 +591,7 @@
                             успешного
                             настоящего и перспективного будущего.</p>
                         <button class="bold16-font">Подробнее</button>
-                        <p class="semi20-font">Врач: <a class="blue-color" href="pages/zotova-g.html">Зотова Гюзяль
+                        <p class="semi20-font">Врач: <a class="blue-color" href="zotova-g.html">Зотова Гюзяль
                                 Хамзеевна</a></p>
                     </div>
                     <div class="feedback-item">
@@ -534,19 +600,18 @@
                             <p class="reg16-font">28 ноября 2024</p>
                         </div>
                         <div class="stars-row">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
                         </div>
                         <p class="semi20-font">Хочу выразить благодарность Андрею Евгеньевичу за качественную
                             консультацию. Была на
                             приеме 26 ноября 2024 года. Собран подробно анамнез заболевания, внимательно проведен
                             осмотр.</p>
                         <button class="bold16-font">Подробнее</button>
-                        <p class="semi20-font">Врач: <a class="blue-color" href="pages/nikolaeva-o.html">Николаева
-                                Оксана
+                        <p class="semi20-font">Врач: <a class="blue-color" href="nikolaeva-o.html">Николаева Оксана
                                 Леонидовна</a>
                         </p>
                     </div>
@@ -558,11 +623,11 @@
                             <p class="reg16-font">18 апреля 2022</p>
                         </div>
                         <div class="stars-row">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
                         </div>
                         <p class="semi20-font">Попала к Наталье Владимировне спонтанно. Очень довольна приёмом и
                             проведением
@@ -570,7 +635,7 @@
                             При
                             возникнвении проблем теперь только к ней!</p>
                         <button class="bold16-font">Подробнее</button>
-                        <p class="semi20-font">Врач: <a class="blue-color" href="pages/savina-n.html">Савина Наталья
+                        <p class="semi20-font">Врач: <a class="blue-color" href="savina-n.html">Савина Наталья
                                 Владимировна</a></p>
                     </div>
                     <div class="feedback-item">
@@ -579,162 +644,25 @@
                             <p class="reg16-font">24 ноября 2021</p>
                         </div>
                         <div class="stars-row">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
-                            <img src="images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
+                            <img src="../images/feedback-star.svg">
                         </div>
                         <p class="semi20-font">Огромное спасибо врачу за тщательное обследование. Выявили нехватку
                             витамина Д,
                             проблем с щитовидной, к счастью, не оказалось. Доктор приятная в общении и настоящий
                             профессионал!</p>
                         <button class="bold16-font">Подробнее</button>
-                        <p class="semi20-font">Врач: <a class="blue-color" href="pages/kryatov-a.html">Крятов Андрей
+                        <p class="semi20-font">Врач: <a class="blue-color" href="kryatov-a.html">Крятов Андрей
                                 Михайлович</a></p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script src="js/sliderFeedback.js"></script>
-    </div>
-
-
-    <div class="blog">
-        <div class="heading-button">
-            <h2 class="white-color">Блог от наших специалистов</h2>
-            <button class="bold16-font" onclick="document.location='pages/blog.html'">Читать все</button>
-        </div>
-        <div class="articles-row">
-            <div class="article">
-                <img src="images/blog-img1.png">
-                <div class="article-info white-color">
-                    <p class="bold22-font">Кто находится в группе риска по глаукоме?</p>
-                    <p class="reg16-font">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в
-                        основе кото...</p>
-                </div>
-                <div class="author">
-                    <img src="images/blog-author.png">
-                    <div class="author-text">
-                        <p class="bold14-font">Савина Наталья</p>
-                        <div class="date-info reg14-font">
-                            <p>30 авг. 2023</p>
-                            <p>•</p>
-                            <p>5 минут на чтение</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <img src="images/blog-img1.png">
-                <div class="article-info white-color">
-                    <p class="bold22-font">Кто находится в группе риска по глаукоме?</p>
-                    <p class="reg16-font">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в
-                        основе кото...</p>
-                </div>
-                <div class="author">
-                    <img src="images/blog-author.png">
-                    <div class="author-text">
-                        <p class="bold14-font">Савина Наталья</p>
-                        <div class="date-info reg14-font">
-                            <p>30 авг. 2023</p>
-                            <p>•</p>
-                            <p>5 минут на чтение</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <img src="images/blog-img1.png">
-                <div class="article-info white-color">
-                    <p class="bold22-font">Кто находится в группе риска по глаукоме?</p>
-                    <p class="reg16-font">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в
-                        основе кото...</p>
-                </div>
-                <div class="author">
-                    <img src="images/blog-author.png">
-                    <div class="author-text">
-                        <p class="bold14-font">Савина Наталья</p>
-                        <div class="date-info reg14-font">
-                            <p>30 авг. 2023</p>
-                            <p>•</p>
-                            <p>5 минут на чтение</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="article">
-                <img src="images/blog-img1.png">
-                <div class="article-info white-color">
-                    <p class="bold22-font">Кто находится в группе риска по глаукоме?</p>
-                    <p class="reg16-font">Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в
-                        основе кото...</p>
-                </div>
-                <div class="author">
-                    <img src="images/blog-author.png">
-                    <div class="author-text">
-                        <p class="bold14-font">Савина Наталья</p>
-                        <div class="date-info reg14-font">
-                            <p>30 авг. 2023</p>
-                            <p>•</p>
-                            <p>5 минут на чтение</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="partners">
-        <h2>Наши партнеры</h2>
-        <div class="partners-logos">
-            <div class="logo-card">
-                <img src="images/p-logo1.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo2.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo3.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo4.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo5.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo6.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo7.png">
-            </div>
-        </div>
-        <div class="partners-logos">
-            <div class="logo-card">
-                <img src="images/p-logo8.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo9.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo10.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo11.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo12.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo13.png">
-            </div>
-            <div class="logo-card">
-                <img src="images/p-logo14.png">
-            </div>
-        </div>
+        <script src="../js/sliderFeedback.js"></script>
     </div>
 
 
@@ -758,84 +686,84 @@
             <div class="slides">
                 <div class="slide">
                     <div class="licenses-item">
-                        <a href="documents/license1.pdf" target="_blank">
+                        <a href="../documents/license1.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img1.jpg">
+                                <img src="../images/licenses-img1.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license1.pdf" target="_blank">
-                            <p>Лицензия Л041-62-5000369739 (выписка из реестра)</p>
+                        <a class="reg16-font grey-color" href="../documents/license1.pdf" target="_blank">
+                            <p>Лицензия Л041-01162-5000369739 (выписка из реестра)</p>
                         </a>
                     </div>
                     <div class="licenses-item">
-                        <a href="documents/license2.pdf" target="_blank">
+                        <a href="../documents/license2.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img2.jpg">
+                                <img src="../images/licenses-img2.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license2.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license2.pdf" target="_blank">
                             <p>Лицензия Л017-01162-50/00561579 (выписка из реестра)</p>
                         </a>
                     </div>
                     <div class="licenses-item">
-                        <a href="documents/license3.pdf" target="_blank">
+                        <a href="../documents/license3.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img3.jpg">
+                                <img src="../images/licenses-img3.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license3.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license3.pdf" target="_blank">
                             <p>Лицензия Л041-01162-50/00338967 (выписка из реестра)</p>
                         </a>
                     </div>
                     <div class="licenses-item">
-                        <a href="documents/license4.pdf" target="_blank">
+                        <a href="../documents/license4.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img4.jpg">
+                                <img src="../images/licenses-img4.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license4.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license4.pdf" target="_blank">
                             <p>Лицензия Л017-01162-50/00143814 (выписка из реестра)</p>
                         </a>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="licenses-item">
-                        <a href="documents/license1.pdf" target="_blank">
+                        <a href="../documents/license1.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img1.jpg">
+                                <img src="../images/licenses-img1.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license1.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license1.pdf" target="_blank">
                             <p>Лицензия Л041-01162-5000369739 (выписка из реестра)</p>
                         </a>
                     </div>
                     <div class="licenses-item">
-                        <a href="documents/license2.pdf" target="_blank">
+                        <a href="../documents/license2.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img2.jpg">
+                                <img src="../images/licenses-img2.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license2.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license2.pdf" target="_blank">
                             <p>Лицензия Л017-01162-50/00561579 (выписка из реестра)</p>
                         </a>
                     </div>
                     <div class="licenses-item">
-                        <a href="documents/license3.pdf" target="_blank">
+                        <a href="../documents/license3.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img3.jpg">
+                                <img src="../images/licenses-img3.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license3.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license3.pdf" target="_blank">
                             <p>Лицензия Л041-01162-50/00338967 (выписка из реестра)</p>
                         </a>
                     </div>
                     <div class="licenses-item">
-                        <a href="documents/license4.pdf" target="_blank">
+                        <a href="../documents/license4.pdf" target="_blank">
                             <div class="licenses-img-block">
-                                <img src="images/licenses-img4.jpg">
+                                <img src="../images/licenses-img4.jpg">
                             </div>
                         </a>
-                        <a class="reg16-font grey-color" href="documents/license4.pdf" target="_blank">
+                        <a class="reg16-font grey-color" href="../documents/license4.pdf" target="_blank">
                             <p>Лицензия Л017-01162-50/00143814 (выписка из реестра)</p>
                         </a>
                     </div>
@@ -843,7 +771,7 @@
             </div>
         </div>
 
-        <script src="js/slider.js"></script>
+        <script src="../js/slider.js"></script>
     </div>
 
 
@@ -909,20 +837,20 @@
     <footer>
         <div class="footer-content">
             <div class="footer-logo-politics">
-                <img src="images/header-logo.svg">
+                <img src="../images/header-logo.svg">
                 <p class="reg16-font">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
                 <a class="reg14-font" href="#">Политика конфиденциальности</a>
             </div>
             <div class="footer-nav-info">
                 <nav class="bold16-font">
-                    <a href="pages/activities.html">Направления</a>
+                    <a href="activities.html">Направления</a>
                     <a href="#">Услуги</a>
-                    <a href="pages/doctors.html">Врачи</a>
-                    <a href="pages/feedback.html">Отзывы</a>
-                    <a href="pages/discounts.html">Акции</a>
-                    <a href="pages/aboutcenter.html">О центре</a>
+                    <a href="doctors.html">Врачи</a>
+                    <a href="feedback.html">Отзывы</a>
+                    <a href="discounts.html">Акции</a>
+                    <a href="aboutcenter.html">О центре</a>
                     <a href="#">Детство</a>
-                    <a href="pages/contacts.html">Контакты</a>
+                    <a href="contacts.html">Контакты</a>
                 </nav>
                 <div class="contact-info-row">
                     <div class="contact-info">
@@ -931,7 +859,7 @@
                             <p class="semi28-font dark-blue-color">8 (495) 588-08-80</p>
                         </div>
                         <div class="footer-social-network reg16-font">
-                            <img src="images/whatsapp.svg">
+                            <img src="../images/whatsapp.svg">
                             <p>Написать в Whatsapp</p>
                         </div>
                     </div>
@@ -941,7 +869,7 @@
                             <p>Ежедневно с 9.00 до 21.00</p>
                         </div>
                         <div class="footer-social-network -vk">
-                            <img src="images/vkontakte.svg">
+                            <img src="../images/vkontakte.svg">
                             <p>Vkontakte</p>
                         </div>
                     </div>
@@ -950,7 +878,7 @@
                         <div class="email-info reg16-font">
                             <p>info@gormedcentre.ru</p>
                             <div class="another-version">
-                                <img src="images/version.svg">
+                                <img src="../images/version.svg">
                                 <p>Версия для слабовидящих</p>
                             </div>
                         </div>
@@ -968,14 +896,6 @@
             <p>Имеются противопоказания. Необходимо проконсультироваться со специалистом</p>
         </div>
     </footer>
-
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <button class="close">close</button>
-            <p>Привет, я всплывающее окно!</p>
-        </div>
-    </div>
-    <script src="js/modal.js"></script>
 </body>
 
 </html>

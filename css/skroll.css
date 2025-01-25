@@ -1,0 +1,33 @@
+.btn-up {
+    position: fixed;
+    background-color: #FFFFFF;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    border: 3px solid var(--blue-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+    width: 46px;
+    height: 46px;
+    opacity: 1;
+}
+
+.btn-up::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("../images/skroll-arrow.svg");
+}
+
+.btn-up_hide {
+    display: none;
+}
+
+.btn-up_hiding {
+    opacity: 0;
+}
